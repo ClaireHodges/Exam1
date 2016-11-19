@@ -1,0 +1,157 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+.right{
+	float:right
+}
+
+.left{
+	float:left;
+}
+
+.center{
+	float: center;
+}
+
+.sidebars{
+	width:8%;
+	background-color:rgba(219, 234, 19, 1);
+	height:950px;
+	padding:0px;
+}
+
+
+#main{
+	width:84%;
+	position:relative;
+	height: 950px;
+	float:left;
+	background-image: url("http://thecutestblogontheblock.com/wp-content/uploads/2011/11/Weave-the-nest-free-stretch-blog-background.jpg");
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:84% 100%;
+	}
+
+.nav{
+	/* Even though this only applies to one element, I kept it as a class, because usually on a website with multiple 
+	pages it would apply to all of them, so keeping it as a class makes it easier to expand it. This also applies 
+	to the footer*/
+	position:fixed;
+	z-index:2;
+	margin:0;
+
+}
+
+.footer{
+	position:absolute;
+	left:10%;
+	bottom:0%;
+	height: 50px;
+	float:left;
+
+}
+
+
+
+#image1{
+	display:block;
+	margin:auto;
+	opacity:0.5;
+	width:50%;
+	z-index: -2;
+}
+
+#p1{
+	padding:2%;
+}
+
+
+.p2{
+	padding-left:1%;
+	float:left;
+	width:79%;
+}
+
+#list{
+	float:left;
+	width:72%;
+	padding-left:5%;
+	margin-left:3%;
+
+}
+
+#cool{
+	color: rgba(29, 237, 40, 1);
+	font-size: 200%;
+}
+
+#image2{
+	width:20%;
+}
+
+
+ul.nav {
+	left:16.4%;
+    width:67.2%;
+    /* Had to make it fixed to keep it from moving, but fixed is relative to the viewport,
+    so 67.2 is 80% of 84%. */
+    margin:0px;
+    padding:0px;
+    background-color:rgba(252, 31, 23, 1);
+    text-align:center;
+    font-family: sans-serif; 
+}
+.nav li { 
+    display:inline-block;
+    width:33%;
+    margin:0;
+    padding:0;
+}
+
+.nav a {
+    text-align:center;
+    padding:12px 0 13px 0;
+    margin:0;
+    display:block;
+}
+.nav a:hover { 
+    background:rgba(245, 135, 131, 1);
+    border:none;
+}
+
+ul.footer {
+    width:80%;
+    margin:0;
+    padding:0;
+    list-style:none;
+    background-color:rgba(252, 31, 23, 1);
+    text-align:center;
+    font-family: sans-serif; 
+    height:43px;
+}
+.footer li { 
+    display:inline-block;
+    width:33%;
+    margin:0;
+    padding:0;
+}
+.footer a {
+    text-align:center;
+    padding:12px 0 13px 0;
+    margin:0;
+    display:block;
+}
+.footer a:hover { 
+    background:rgba(245, 135, 131, 1);
+    border:none;
+    height:18px;
+}
+
+#image1:hover {
+    opacity:1.0;
+}
+
+
